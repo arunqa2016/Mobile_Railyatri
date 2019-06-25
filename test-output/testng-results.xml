@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="tests" duration-ms="62126" started-at="2019-06-25T17:59:26Z" finished-at="2019-06-25T18:00:28Z">
+    <groups>
+    </groups>
+    <test name="Mobile App" duration-ms="62126" started-at="2019-06-25T17:59:26Z" finished-at="2019-06-25T18:00:28Z">
+      <class name="com.org.tests.BusBooking">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.org.tests.BusBooking@4f7d0008]" name="setup" is-config="true" duration-ms="20247" started-at="2019-06-25T17:59:06Z" finished-at="2019-06-25T17:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateSmartBusLink()[pri:1, instance:com.org.tests.BusBooking@4f7d0008]" name="validateSmartBusLink" duration-ms="2197" started-at="2019-06-25T17:59:26Z" finished-at="2019-06-25T17:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSmartBusLink -->
+        <test-method status="PASS" signature="validateDetailsOfCityAndDate()[pri:2, instance:com.org.tests.BusBooking@4f7d0008]" name="validateDetailsOfCityAndDate" duration-ms="39152" started-at="2019-06-25T17:59:28Z" finished-at="2019-06-25T18:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDetailsOfCityAndDate -->
+        <test-method status="PASS" signature="validateSeatBookingProcess()[pri:3, instance:com.org.tests.BusBooking@4f7d0008]" name="validateSeatBookingProcess" duration-ms="17362" started-at="2019-06-25T18:00:07Z" finished-at="2019-06-25T18:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSeatBookingProcess -->
+        <test-method status="PASS" signature="validatePasasngerDetailsForm()[pri:4, instance:com.org.tests.BusBooking@4f7d0008]" name="validatePasasngerDetailsForm" duration-ms="3367" started-at="2019-06-25T18:00:25Z" finished-at="2019-06-25T18:00:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePasasngerDetailsForm -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.org.tests.BusBooking@4f7d0008]" name="tearDown" is-config="true" duration-ms="614" started-at="2019-06-25T18:00:28Z" finished-at="2019-06-25T18:00:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.org.tests.BusBooking -->
+    </test> <!-- Mobile App -->
+  </suite> <!-- tests -->
+</testng-results>
