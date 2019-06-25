@@ -21,13 +21,13 @@ import io.appium.java_client.remote.MobileCapabilityType;
 
 public class Base {
 
-	public DesiredCapabilities caps;
-	public WebDriver driver;
-	public ExtentReports extent;
-	public ExtentTest logger;
-	public Properties prop;
+	public static DesiredCapabilities caps;
+	public static WebDriver driver;
+	public static ExtentReports extent;
+	public static ExtentTest logger;
+	public static Properties prop;
 	private String propPath = "C:\\Users\\HP\\eclipse-workspace\\RailyatriMobileweb\\src\\main\\java\\com\\org\\config\\Config.properties";
-	public String reportLocation = "E:\\Railyatri_MobileWeb_Report.html";
+	public static String reportLocation = "E:\\Railyatri_MobileWeb_Report.html";
 	
 	public Base() {
 		
@@ -46,7 +46,7 @@ public class Base {
 	}
 	
 	@BeforeSuite
-	public void setup() throws MalformedURLException {
+	public static void setup() throws MalformedURLException {
 		
 		caps = new DesiredCapabilities();
 		
@@ -65,7 +65,7 @@ public class Base {
 	}
 	
 	@AfterSuite
-	public void tearDown() {
+	public static void tearDown() {
 		extent.endTest(logger);
 		extent.flush();
 		driver.get(reportLocation);
