@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [tests]">
+  <test thread-count="5" name="Mobile App(failed)">
+    <classes>
+      <class name="com.org.tests.BusBooking">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="validateSmartBusLink"/>
+          <include name="validateDetailsOfCityAndDate"/>
+          <include name="validateSeatBookingProcess"/>
+          <include name="validatePasasngerDetailsForm"/>
+        </methods>
+      </class> <!-- com.org.tests.BusBooking -->
+    </classes>
+  </test> <!-- Mobile App(failed) -->
+</suite> <!-- Failed suite [tests] -->
