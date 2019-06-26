@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="tests" duration-ms="62126" started-at="2019-06-25T17:59:26Z" finished-at="2019-06-25T18:00:28Z">
+  <suite name="Default suite" duration-ms="115917" started-at="2019-06-26T02:15:35Z" finished-at="2019-06-26T02:17:31Z">
     <groups>
     </groups>
-    <test name="Mobile App" duration-ms="62126" started-at="2019-06-25T17:59:26Z" finished-at="2019-06-25T18:00:28Z">
+    <test name="Default test" duration-ms="115917" started-at="2019-06-26T02:15:35Z" finished-at="2019-06-26T02:17:31Z">
       <class name="com.org.tests.BusBooking">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.org.tests.BusBooking@4f7d0008]" name="setup" is-config="true" duration-ms="20247" started-at="2019-06-25T17:59:06Z" finished-at="2019-06-25T17:59:26Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.org.tests.BusBooking@20322d26]" name="setup" is-config="true" duration-ms="21278" started-at="2019-06-26T02:15:14Z" finished-at="2019-06-26T02:15:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateSmartBusLink()[pri:1, instance:com.org.tests.BusBooking@4f7d0008]" name="validateSmartBusLink" duration-ms="2197" started-at="2019-06-25T17:59:26Z" finished-at="2019-06-25T17:59:28Z">
+        <test-method status="PASS" signature="validateSmartBusLink()[pri:1, instance:com.org.tests.BusBooking@20322d26]" name="validateSmartBusLink" duration-ms="2312" started-at="2019-06-26T02:15:36Z" finished-at="2019-06-26T02:15:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSmartBusLink -->
-        <test-method status="PASS" signature="validateDetailsOfCityAndDate()[pri:2, instance:com.org.tests.BusBooking@4f7d0008]" name="validateDetailsOfCityAndDate" duration-ms="39152" started-at="2019-06-25T17:59:28Z" finished-at="2019-06-25T18:00:07Z">
+        <test-method status="PASS" signature="validateDetailsOfCityAndDate()[pri:2, instance:com.org.tests.BusBooking@20322d26]" name="validateDetailsOfCityAndDate" duration-ms="79502" started-at="2019-06-26T02:15:38Z" finished-at="2019-06-26T02:16:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateDetailsOfCityAndDate -->
-        <test-method status="PASS" signature="validateSeatBookingProcess()[pri:3, instance:com.org.tests.BusBooking@4f7d0008]" name="validateSeatBookingProcess" duration-ms="17362" started-at="2019-06-25T18:00:07Z" finished-at="2019-06-25T18:00:25Z">
+        <test-method status="PASS" signature="validateSeatBookingProcess()[pri:3, instance:com.org.tests.BusBooking@20322d26]" name="validateSeatBookingProcess" duration-ms="27002" started-at="2019-06-26T02:16:57Z" finished-at="2019-06-26T02:17:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSeatBookingProcess -->
-        <test-method status="PASS" signature="validatePasasngerDetailsForm()[pri:4, instance:com.org.tests.BusBooking@4f7d0008]" name="validatePasasngerDetailsForm" duration-ms="3367" started-at="2019-06-25T18:00:25Z" finished-at="2019-06-25T18:00:28Z">
+        <test-method status="PASS" signature="validatePasasngerDetailsForm()[pri:4, instance:com.org.tests.BusBooking@20322d26]" name="validatePasasngerDetailsForm" duration-ms="7047" started-at="2019-06-26T02:17:24Z" finished-at="2019-06-26T02:17:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePasasngerDetailsForm -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.org.tests.BusBooking@4f7d0008]" name="tearDown" is-config="true" duration-ms="614" started-at="2019-06-25T18:00:28Z" finished-at="2019-06-25T18:00:29Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.org.tests.BusBooking@20322d26]" name="tearDown" is-config="true" duration-ms="585" started-at="2019-06-26T02:17:31Z" finished-at="2019-06-26T02:17:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.org.tests.BusBooking -->
-    </test> <!-- Mobile App -->
-  </suite> <!-- tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
